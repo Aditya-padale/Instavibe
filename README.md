@@ -1,34 +1,149 @@
-<p align="center">
-  <b>🚀 InstaVibe - Bio Generator using LangChain, Streamlit, and Gemini API</b>
-</p>
+# InstaVibe
 
-<p align="center">
-  <a href="https://instavibe.streamlit.app/">🌐 Try the App</a> |
-  <a href="https://github.com/Aditya-padale/InstaVibe">📂 GitHub Repo</a>
-</p>
+A modern, AI-powered bio generator built using **Streamlit**, **LangChain**, and **Google Gemini API**. InstaVibe helps users instantly create impressive bios tailored for social media, portfolios, or professional platforms.
 
 ---
 
-## 📌 About the Project
+## 🚀 Features
 
-**InstaVibe** is an intelligent, AI-powered bio generator that helps users create catchy and professional bios for their social profiles, websites, or portfolios.
+- **Smart Bio Generation**: Generate professional and catchy bios with one click  
+- **LangChain Integration**: Prompt-template driven AI responses  
+- **Google Gemini AI**: Powered by Google's cutting-edge language model  
+- **Streamlit UI**: Clean, interactive, and minimalistic interface  
+- **Real-time Feedback**: Dynamic prompt updates and instant results  
+- **One-Tap Copy**: Easily copy bios with a single click  
+- **Secure Environment**: `.env`-based API key management
 
-🧠 Built using:
-- **LangChain** for prompt engineering and model chaining
-- **Gemini AI** for text generation
-- **Streamlit** for a sleek, interactive frontend
+---
+
+## 🧱 Tech Stack
+
+### Frontend:
+
+- Streamlit (Python)
+- Custom CSS for styling
+- Clipboard API for copy feature
+
+### Backend:
+
+- LangChain PromptTemplate and LLMChain
+- Google Gemini API via `langchain_google_genai`
+- Python `os` for environment variable handling
 
 ---
 
+## 🧰 Getting Started
 
-## 🛠️ Tech Stack
+### 📦 Prerequisites
 
-| Layer         | Technology                   |
-|---------------|------------------------------|
-| Frontend      | Streamlit                    |
-| Backend       | LangChain, Python            |
-| AI Model      | Gemini via `langchain_google_genai` |
-| Deployment    | Streamlit Cloud              |
+- Python 3.9 or above
+- Google Gemini API key
+
+### 🔧 Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Aditya-padale/InstaVibe.git
+   cd InstaVibe
+
+2. **Install dependencies:**
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Set up your `.env` file:**
+   Create a `.env` file in the root directory:
+
+   ```env
+   GOOGLE_API_KEY=your-gemini-api-key
+   ```
+
+4. **Run the app:**
+
+   ```bash
+   streamlit run app.py
+   ```
 
 ---
+
+## 🌐 Application URL
+
+Live Demo: [https://instavibe.streamlit.app](https://instavibe.streamlit.app)
+
+---
+
+## 📋 API Usage (via LangChain & Gemini)
+
+* Uses `PromptTemplate` to format user inputs.
+* Sends requests to Gemini Pro via LangChain's `ChatGoogleGenerativeAI`.
+* Returns bio suggestions in natural language format.
+
+---
+
+## 📁 Project Structure
+
+```
+instavibe/
+├── app.py                  # Main Streamlit application
+├── .env                   # Environment variables (API key)
+├── requirements.txt       # Python dependencies
+├── .gitignore             # Ignored files
+└── README.md              # Project documentation
+```
+
+---
+
+## 🧪 Testing
+
+* ✅ Test the Streamlit UI on `http://localhost:8501`
+* ✅ Enter a few name/role combinations and check for real-time bio generation
+* ✅ Click the copy button and validate clipboard interaction
+* ✅ Check for API errors or missing keys
+
+---
+
+## 🧼 Available Scripts
+
+```bash
+streamlit run app.py             # Run the app locally
+pip install -r requirements.txt  # Install all dependencies
+```
+
+---
+
+## 🎨 Features Showcase
+
+* ✨ **Responsive UI** with real-time interaction
+* 🧠 **Context-aware Prompts** for tailored bios
+* 🔒 **Secure API Integration** using `.env` file
+* 🖱️ **One-click Copy** for user convenience
+* 🎯 **Fast, Lightweight** deployment with Streamlit Cloud
+
+---
+
+## 📬 Connect with Me
+
+**Aditya Padale**
+📧 [adityapadale2003@gmail.com](mailto:adityapadale2003@gmail.com)
+🔗 [GitHub](https://github.com/Aditya-padale)
+
+---
+
+## ⭐ Support
+
+If you like this project, don’t forget to ⭐ the repository and share it with others!
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE)
+
+```
+
+---
+
+Let me know if you'd like a `LICENSE` file or a `.env.example` file created too!
+```
 
