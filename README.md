@@ -20,14 +20,6 @@
 
 ---
 
-## 🔥 Features
-
-- ⚡ Generate impressive bios instantly
-- ✍️ Customizable input prompts
-- 🌈 Clean and minimalist UI
-- 🔐 Secure .env integration with Gemini API
-
----
 
 ## 🛠️ Tech Stack
 
