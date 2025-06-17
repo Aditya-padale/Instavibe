@@ -1,4 +1,5 @@
 streamlit
 langchain-google-genai
+langchain
 python-dotenv
 pandas
